@@ -1,0 +1,50 @@
+header {
+    background-color: #414141;
+    color: white;
+    text-align: center;
+    height: 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 80%;
+}
+
+#react-root {
+    height: 2000px;
+}
+
+form {
+    margin-top: 3%;
+    height: 50%;
+    text-align: center;
+    label {
+        padding-bottom: 20%;
+    }
+    input {
+        margin-bottom: 3%;
+    }
+}
+
+footer {
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 2%;
+}
+
+section {
+    text-align: center;
+    border: groove;
+    height: 650px;
+    h3 {
+        height: 45%;
+        span {
+            font-size: medium;
+            padding-right: 20px;
+        }
+    }
+}
